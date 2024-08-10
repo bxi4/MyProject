@@ -11,6 +11,8 @@
 		37C232A12C64CF36001A5B84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C232A02C64CF36001A5B84 /* ContentView.swift */; };
 		37C232A32C64CF36001A5B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C232A22C64CF36001A5B84 /* Assets.xcassets */; };
 		37C232A62C64CF36001A5B84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C232A52C64CF36001A5B84 /* Preview Assets.xcassets */; };
+		37C232AD2C64F890001A5B84 /* FlipCardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C232AC2C64F890001A5B84 /* FlipCardImage.swift */; };
+		37C232B12C6778B3001A5B84 /* CheckInternetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C232B02C6778B3001A5B84 /* CheckInternetModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		37C232A02C64CF36001A5B84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		37C232A22C64CF36001A5B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37C232A52C64CF36001A5B84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37C232AC2C64F890001A5B84 /* FlipCardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardImage.swift; sourceTree = "<group>"; };
+		37C232B02C6778B3001A5B84 /* CheckInternetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInternetModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				37C2329E2C64CF36001A5B84 /* MyProjectApp.swift */,
 				37C232A02C64CF36001A5B84 /* ContentView.swift */,
+				37C232AC2C64F890001A5B84 /* FlipCardImage.swift */,
+				37C232B02C6778B3001A5B84 /* CheckInternetModel.swift */,
 				37C232A22C64CF36001A5B84 /* Assets.xcassets */,
 				37C232A42C64CF36001A5B84 /* Preview Content */,
 			);
@@ -109,6 +115,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 37C232922C64CF35001A5B84;
 			productRefGroup = 37C2329C2C64CF36001A5B84 /* Products */;
@@ -137,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C232AD2C64F890001A5B84 /* FlipCardImage.swift in Sources */,
 				37C232A12C64CF36001A5B84 /* ContentView.swift in Sources */,
 				37C2329F2C64CF36001A5B84 /* MyProjectApp.swift in Sources */,
+				37C232B12C6778B3001A5B84 /* CheckInternetModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
